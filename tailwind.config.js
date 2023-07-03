@@ -7,7 +7,12 @@ module.exports = {
     "./navigation/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // fontFamily: {
+      //   "flf-bold": ["sans-bold"],
+      //   "flf-semi": "sans-semibold",
+      // },
+    },
   },
   plugins: [],
 };

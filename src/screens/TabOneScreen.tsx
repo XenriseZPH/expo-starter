@@ -1,10 +1,12 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
+import SampleComponents from "../components/SampleComponents";
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab One</Text>
+      <SampleComponents />
     </View>
   );
 }
